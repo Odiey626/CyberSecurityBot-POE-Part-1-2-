@@ -1,0 +1,36 @@
+CYBERSECURITY AWARENESS CHATBOT
+===============================
+
+Created by: Odirile Masemola ST10441421
+Course: Diploma in IT – Software Development
+Module: Programming (PROG 6221) | Cybersecurity POE Part 2
+
+Description:
+------------
+This chatbot educates users about cybersecurity topics and responds to user sentiments.
+It stores and recalls past topics and emotions to continue the conversation naturally.
+
+Features:
+---------
+- Remembers user's name and greets them appropriately.
+- Detects cybersecurity topics like phishing, passwords, malware, etc.
+- Responds to user sentiments like “worried”, “frustrated”, and “curious”.
+- Offers to continue or start a new topic based on user’s last session.
+- Saves memory per user using text files.
+- Includes welcome audio and branding logo.
+
+How to Run:
+-----------
+1. Open the solution in Visual Studio.
+2. Add all C# files to your project.
+3. Make sure the image and audio files are in the output directory.
+4. Run the program and interact with the chatbot in the console.
+
+Files:
+------
+- CyberSecurityBot.cs - Main program logic
+- ChatbotResponse.cs - Contains chatbot responses
+- UserInteraction.cs - Handles user input and validation
+- AudioPlayer.cs - Plays audio at startup
+- Program.cs - Displays the logo image
+- welcome.wav (or .mp3) - Welcome audio file
